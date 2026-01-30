@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    padding: 50px 20px;
+    background-color: #222;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Three.js Container */
+#three-container {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+/* Content Section */
+#content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#content ul li {
+    margin: 10px 0;
+}
+
+#content a {
+    color: #00ffcc;
+    text-decoration: none;
+}
+
+#content a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    padding: 20px;
+    background-color: #222;
+}
